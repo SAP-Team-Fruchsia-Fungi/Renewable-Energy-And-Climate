@@ -1,7 +1,7 @@
 import csv
 
-with open('/users/diago/Documents/GitHub/Renewable-Energy-And-Climate/Data/climateperceptions.csv', encoding='utf-8') as csv_file:
-    csv_reader = csv.DictReader(csv_file)
+with open('data/Climate Perceptions.csv', encoding='utf-8') as f:
+    csv_reader = csv.DictReader(f)
 
     scarborough_not_concerned_count = 0
     scarborough_concerned_count = 0
